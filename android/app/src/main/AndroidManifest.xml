@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.turiscol">
+    package="com.example.app4">
    <application
-        android:label="turiscol"
+        android:label="app4"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

@@ -1,5 +1,7 @@
+import 'package:app4/pages/splash_pages.dart';
+import 'package:app4/pages/registre_pages.dart';
+import 'package:app4/pages/login_pages.dart';
 import 'package:flutter/material.dart';
-import 'package:turiscol/pages/index_pages.dart';
 
 void main() {
   runApp(const MyApp());
@@ -8,16 +10,25 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Turismo por Colombia',
+      title: 'App TurisCOl',
       theme: ThemeData(
 
         primarySwatch: Colors.blue,
+        canvasColor: Color(0xFFFFF59D)
       ),
-      home: const IndexPages(),
+      //home: const LoginPages(),
+      home: const SplashPages(),
     );
   }
 }
+
+
+
+
+
+
+
